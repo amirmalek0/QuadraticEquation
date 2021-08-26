@@ -9,7 +9,7 @@
   <h3> تصاویر سورس : </h3>
 
 <img src="https://user-images.githubusercontent.com/69200761/130988829-e1a2391b-fd41-4124-a6c5-5fb8df48365d.png" alt="حل معادله درجه دو" style="max-width:100%;">
-   <h3 style="color:red"> تنها معادلاتی که دلتای آنها مثبت باشد قابل محاسبه هستند </h3>
+   <h3> تنها معادلاتی که دلتای آنها مثبت باشد قابل محاسبه هستند </h3>
 <img src="https://user-images.githubusercontent.com/69200761/130988858-7b1faf59-7b64-4510-b3bf-d4ed441538d2.png" alt=" php حل معادله درجه دو" style="max-width:100%;">
 
 
