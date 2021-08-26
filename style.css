@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+@font-face{
+    font-family:Kalameh;
+    src:url(fonts/Kalameh-Regular.eot);
+    src:url(fonts/Kalameh-Regular.eot?#iefix) format("embedded-opentype"),
+    url(fonts/Kalameh-Regular.woff2) format("woff2"),url(fonts/Kalameh-Regular.woff) format("woff"),url(fonts/Kalameh-Regular.ttf) format("truetype");
+    font-style:normal 
+}
+:is(h1, h2, h3, h4, h5, h6) {
+font-family: Kalameh;
+}
+h2 {
+    color:red;
+}
+ h3 {
+color :rgb(62, 204, 44)
+}
+.top {
+    font-family: "Sawarabi Mincho";
+    font-size:20px;
+    border-bottom:solid black 1px;
+    display:inline-block; 
+    
+}
+.first_root {
+    padding-bottom: 15px;
+    border-bottom: 2px dotted #ccc;
+}
+
+.delta {
+    font-family: "Sawarabi Mincho";
+    font-size:20px;
+    padding-bottom: 15px;
+    border-bottom: 2px dotted #ccc;
+}
+.container {
+    background-color: #FFF;
+    box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.result {
+    background-color: #FFF;
+    box-shadow: 0 0 11px rgb(0 0 0 / 10%);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    border: 3px dashed rgb(48, 192, 12);
+}
+
+body {
+    text-align: center;
+    background-color: #cccccc1a;
+}
+form {
+    display: inline-block;
+}
+label{
+    font-family: "Sawarabi Mincho";
+    font-size: 30px;
+
+  }
+
+input[type=text] {
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(14, 13, 13);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Sawarabi Mincho";
+    font-size: 20px;
+  }
+  input[type=text]:focus{
+    color: #cc004e; 
+    outline-color: #cc004e;
+    transition:0.5s;
+}
+input[type=submit]:focus{
+    background-color: #cc004e;
+    color:#fff;
+  
+}
+
+  input[type=submit] {
+    border-radius: 10px;
+    padding:5px; 
+    margin-top: 20px;
+    width: 30%;
+    background:#ccc; 
+    border: 2px solid #cc004e;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    font-family: "Kalameh";
+    font-size:2em;
+    color: #cc004e; 
+}
